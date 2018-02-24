@@ -6,6 +6,7 @@ import (
 )
 
 func Run() {
+	fmt.Print("Run ...")
 	for i := 0; true; i++ {
 		timestr := "seconds"
 		if i == 1 {
